@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		964F03CF16BAC84C0088D88C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964F03CE16BAC84C0088D88C /* UIKit.framework */; };
+		964F03D116BAC84C0088D88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964F03D016BAC84C0088D88C /* Foundation.framework */; };
+		964F03D316BAC84C0088D88C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964F03D216BAC84C0088D88C /* CoreGraphics.framework */; };
+		964F03D916BAC84C0088D88C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 964F03D716BAC84C0088D88C /* InfoPlist.strings */; };
+		964F03DB16BAC84C0088D88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F03DA16BAC84C0088D88C /* main.m */; };
+		964F03DF16BAC84C0088D88C /* tapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F03DE16BAC84C0088D88C /* tapAppDelegate.m */; };
+		964F03E116BAC84C0088D88C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 964F03E016BAC84C0088D88C /* Default.png */; };
+		964F03E316BAC84C0088D88C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 964F03E216BAC84C0088D88C /* Default@2x.png */; };
+		964F03E516BAC84C0088D88C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 964F03E416BAC84C0088D88C /* Default-568h@2x.png */; };
+		964F03E816BAC84C0088D88C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F03E616BAC84C0088D88C /* MainStoryboard_iPhone.storyboard */; };
+		964F03EB16BAC84C0088D88C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F03E916BAC84C0088D88C /* MainStoryboard_iPad.storyboard */; };
+		964F03EE16BAC84C0088D88C /* tapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F03ED16BAC84C0088D88C /* tapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		964F03CB16BAC84C0088D88C /* TapMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964F03CE16BAC84C0088D88C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		964F03D016BAC84C0088D88C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		964F03D216BAC84C0088D88C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		964F03D616BAC84C0088D88C /* TapMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapMe-Info.plist"; sourceTree = "<group>"; };
+		964F03D816BAC84C0088D88C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		964F03DA16BAC84C0088D88C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964F03DC16BAC84C0088D88C /* TapMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapMe-Prefix.pch"; sourceTree = "<group>"; };
+		964F03DD16BAC84C0088D88C /* tapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tapAppDelegate.h; sourceTree = "<group>"; };
+		964F03DE16BAC84C0088D88C /* tapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapAppDelegate.m; sourceTree = "<group>"; };
+		964F03E016BAC84C0088D88C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		964F03E216BAC84C0088D88C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		964F03E416BAC84C0088D88C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		964F03E716BAC84C0088D88C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		964F03EA16BAC84C0088D88C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		964F03EC16BAC84C0088D88C /* tapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tapViewController.h; sourceTree = "<group>"; };
+		964F03ED16BAC84C0088D88C /* tapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964F03C816BAC84C0088D88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964F03CF16BAC84C0088D88C /* UIKit.framework in Frameworks */,
+				964F03D116BAC84C0088D88C /* Foundation.framework in Frameworks */,
+				964F03D316BAC84C0088D88C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964F03C216BAC84C0088D88C = {
+			isa = PBXGroup;
+			children = (
+				964F03D416BAC84C0088D88C /* TapMe */,
+				964F03CD16BAC84C0088D88C /* Frameworks */,
+				964F03CC16BAC84C0088D88C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964F03CC16BAC84C0088D88C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964F03CB16BAC84C0088D88C /* TapMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964F03CD16BAC84C0088D88C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964F03CE16BAC84C0088D88C /* UIKit.framework */,
+				964F03D016BAC84C0088D88C /* Foundation.framework */,
+				964F03D216BAC84C0088D88C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		964F03D416BAC84C0088D88C /* TapMe */ = {
+			isa = PBXGroup;
+			children = (
+				964F03DD16BAC84C0088D88C /* tapAppDelegate.h */,
+				964F03DE16BAC84C0088D88C /* tapAppDelegate.m */,
+				964F03E616BAC84C0088D88C /* MainStoryboard_iPhone.storyboard */,
+				964F03E916BAC84C0088D88C /* MainStoryboard_iPad.storyboard */,
+				964F03EC16BAC84C0088D88C /* tapViewController.h */,
+				964F03ED16BAC84C0088D88C /* tapViewController.m */,
+				964F03D516BAC84C0088D88C /* Supporting Files */,
+			);
+			path = TapMe;
+			sourceTree = "<group>";
+		};
+		964F03D516BAC84C0088D88C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964F03D616BAC84C0088D88C /* TapMe-Info.plist */,
+				964F03D716BAC84C0088D88C /* InfoPlist.strings */,
+				964F03DA16BAC84C0088D88C /* main.m */,
+				964F03DC16BAC84C0088D88C /* TapMe-Prefix.pch */,
+				964F03E016BAC84C0088D88C /* Default.png */,
+				964F03E216BAC84C0088D88C /* Default@2x.png */,
+				964F03E416BAC84C0088D88C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964F03CA16BAC84C0088D88C /* TapMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964F03F116BAC84C0088D88C /* Build configuration list for PBXNativeTarget "TapMe" */;
+			buildPhases = (
+				964F03C716BAC84C0088D88C /* Sources */,
+				964F03C816BAC84C0088D88C /* Frameworks */,
+				964F03C916BAC84C0088D88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapMe;
+			productName = TapMe;
+			productReference = 964F03CB16BAC84C0088D88C /* TapMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964F03C316BAC84C0088D88C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tap;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Juan Jesús Izquierdo Doménech";
+			};
+			buildConfigurationList = 964F03C616BAC84C0088D88C /* Build configuration list for PBXProject "TapMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 964F03C216BAC84C0088D88C;
+			productRefGroup = 964F03CC16BAC84C0088D88C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964F03CA16BAC84C0088D88C /* TapMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964F03C916BAC84C0088D88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964F03D916BAC84C0088D88C /* InfoPlist.strings in Resources */,
+				964F03E116BAC84C0088D88C /* Default.png in Resources */,
+				964F03E316BAC84C0088D88C /* Default@2x.png in Resources */,
+				964F03E516BAC84C0088D88C /* Default-568h@2x.png in Resources */,
+				964F03E816BAC84C0088D88C /* MainStoryboard_iPhone.storyboard in Resources */,
+				964F03EB16BAC84C0088D88C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964F03C716BAC84C0088D88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964F03DB16BAC84C0088D88C /* main.m in Sources */,
+				964F03DF16BAC84C0088D88C /* tapAppDelegate.m in Sources */,
+				964F03EE16BAC84C0088D88C /* tapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		964F03D716BAC84C0088D88C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964F03D816BAC84C0088D88C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		964F03E616BAC84C0088D88C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964F03E716BAC84C0088D88C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		964F03E916BAC84C0088D88C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964F03EA16BAC84C0088D88C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964F03EF16BAC84C0088D88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		964F03F016BAC84C0088D88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		964F03F216BAC84C0088D88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapMe/TapMe-Prefix.pch";
+				INFOPLIST_FILE = "TapMe/TapMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		964F03F316BAC84C0088D88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapMe/TapMe-Prefix.pch";
+				INFOPLIST_FILE = "TapMe/TapMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964F03C616BAC84C0088D88C /* Build configuration list for PBXProject "TapMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964F03EF16BAC84C0088D88C /* Debug */,
+				964F03F016BAC84C0088D88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964F03F116BAC84C0088D88C /* Build configuration list for PBXNativeTarget "TapMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964F03F216BAC84C0088D88C /* Debug */,
+				964F03F316BAC84C0088D88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 964F03C316BAC84C0088D88C /* Project object */;
+}
