@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tapViewController : UIViewController
+@interface tapViewController : UIViewController <UIAlertViewDelegate>
+
+//OUTLETS
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UIButton *tapmeButton;
+
+
+//ACTIONS
+- (IBAction)buttonPressed:(UIButton *)sender;
+
 
 @end

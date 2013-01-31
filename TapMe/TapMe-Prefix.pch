@@ -26,3 +26,10 @@
 #   define ULog(...)
 #endif
 //End prints
+
+// From here to end of file added by Injection Plugin //
+
+#ifdef DEBUG
+#define INJECTION_ENABLED
+#import "/Users/juanjesusizquierdodomenech/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources/BundleInterface.h"
+#endif
